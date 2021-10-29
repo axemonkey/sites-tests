@@ -5,11 +5,11 @@ const { setHeadlessWhen } = require('@codeceptjs/configure');
 setHeadlessWhen(process.env.HEADLESS);
 
 exports.config = {
-	tests: './tests/*.js',
+	tests: './tests/**/*.js',
 	output: './output',
 	helpers: {
 		Puppeteer: {
-			url: 'https://clivemurray.com',
+			url: 'http://clivemurray.node',
 			show: false,
 			restart: true,
 			windowSize: '1298x960',
@@ -20,9 +20,9 @@ exports.config = {
 		AssertWrapper: {
 			"require": "codeceptjs-assert"
 		},
-		MyHelper: {
-			require: './lib/custom-helper.js',
-		},
+		// MyHelper: {
+		// 	require: './lib/custom-helper.js',
+		// },
 	},
 	include: {
 		I: './steps_file.js'

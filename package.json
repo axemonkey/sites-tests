@@ -7,7 +7,7 @@
     "npm": ">=7.11.1"
   },
   "scripts": {
-    "codeceptjs": "codeceptjs run --steps"
+    "test": "codeceptjs run --steps"
   },
   "devDependencies": {
     "@codeceptjs/configure": "0.6.2",
