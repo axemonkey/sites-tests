@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@codeceptjs/configure": "0.6.2",
-    "codeceptjs": "3.0.7",
+    "codeceptjs": "3.4.1",
     "codeceptjs-assert": "^0.0.5",
     "playwright": "1.12.3",
     "puppeteer": "10.1.0"
