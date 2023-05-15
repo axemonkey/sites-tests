@@ -14,6 +14,6 @@
     "codeceptjs": "3.4.1",
     "codeceptjs-assert": "^0.0.5",
     "playwright": "1.12.3",
-    "puppeteer": "10.1.0"
+    "puppeteer": "20.2.0"
   }
 }
